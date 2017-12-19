@@ -128,13 +128,13 @@ namespace myns
 	}
 
 	template<typename T>
-	inline T * Vector<T>::begin()
+	T * Vector<T>::begin()
 	{
 		return &elements[0];
 	}
 
 	template<typename T>
-	inline T * Vector<T>::end()
+	T * Vector<T>::end()
 	{
 		return begin() + get_size();
 	}
